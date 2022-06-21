@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2daa6d;
+    color: #484848;
+}
+
+.bloco{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 320px;   
+}
+
+.bloco h1{
+    color: #2daa6d;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+input{
+    background-color: #dddddd;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    color: #484848;
+}
+
+button{
+    background-color: #36d286;
+    border: none;
+    padding: 0.7rem 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #2daa6d;
+}
+
+.nomeidade{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome{
+    width: 50%;
+}
+.idade{
+    width: 48%;
+}
+
+.alturadata{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dltura{
+    width: 50%;
+}
+.data{
+    width: 48%;
+}
+
+input[type=email]{
+    width: 100%;
+}
+
+.radio{
+    display: grid;
+    
+}
+p{
+    margin: 10px 0 5px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+}
+main{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.divcal{
+    background-color: #36d286;
+    border: none;
+    padding: 0.7rem 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+h2{
+    color: #2daa6d;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
